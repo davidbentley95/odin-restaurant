@@ -1,0 +1,33 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "description": "The project involves creating a simple restaurant website with dynamic tabbed navigation using Webpack. Content for tabs like \"Home,\" \"Menu,\" and \"About\" is generated with JavaScript modules. The site is deployed to GitHub Pages by pushing the dist directory to a gh-pages branch for online access.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",               
+    "start": "webpack serve"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbentley95/odin-restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbentley95/odin-restaurant/issues"
+  },
+  "homepage": "https://github.com/davidbentley95/odin-restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0"
+  }
+}
