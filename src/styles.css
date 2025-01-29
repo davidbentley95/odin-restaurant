@@ -1,0 +1,71 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+:root {
+    --primaryColor: rgb(245, 224, 181);
+    --secondaryColor: rgb(46, 43, 43);
+}
+
+body {
+    background-color: var(--primaryColor);
+}
+
+#content {
+    display: flex;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.text-container h1 {
+    width: 475px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    width: 600px;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 25px;
+    background: var(--secondaryColor);
+    height: 10vh;
+}
+
+nav > button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    padding: 5px;
+    border-radius: 5px 5px 0 0 ;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#home {
+    background: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
+img {
+    width: 30vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
