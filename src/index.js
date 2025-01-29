@@ -1,5 +1,5 @@
-import "./styles.css";
+import { loadHomePage } from "./home/home.js";
 
-import { loadHomePage } from "./home.js";
+loadHomePage();
 
 document.querySelector("#home").addEventListener("click", loadHomePage);
