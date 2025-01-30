@@ -1,3 +1,4 @@
+/* GLOBAL STYLING */
 *, ::after, ::before {
     margin: 0;
     padding: 0;
@@ -12,27 +13,6 @@
 
 body {
     background-color: var(--primaryColor);
-}
-
-#content {
-    display: flex;
-}
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 30px;
-}
-
-.text-container h1 {
-    width: 475px;
-    margin-bottom: 20px;
-}
-
-.text-container p {
-    width: 600px;
-    font-size: 24px;
 }
 
 nav {
@@ -58,6 +38,7 @@ button:hover {
     cursor: pointer;
 }
 
+/* HOMER PAGE STYLING */
 #home {
     background: var(--primaryColor);
     color: var(--secondaryColor);
@@ -68,4 +49,36 @@ img {
     height: 100vh;
     object-fit: cover;
     object-position: center;
+}
+
+#content {
+    display: flex;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.text-container h1 {
+    width: 475px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    width: 600px;
+    font-size: 24px;
+}
+
+/* MENU PAGE STYLING */
+.menu-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    min-height: 70vh;
 }

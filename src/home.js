@@ -1,5 +1,4 @@
 import img1 from "./img1.jpg";
-import "./home.css";
 
 const loadHomePage = function() {
     const contentDiv = document.querySelector("#content");
