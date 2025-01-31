@@ -47,12 +47,6 @@ const loadMenuPage = function() {
         item6
     )
     contentDiv.append(menuDiv);
-
-    document.querySelector("#home").style.color = "rgb(245, 224, 181)";
-    document.querySelector("#home").style.backgroundColor = "rgb(46, 43, 43)";
-    document.querySelector("#menu").style.backgroundColor = "rgb(245, 224, 181)";
-    document.querySelector("#menu").style.color = "rgb(46, 43, 43)";
-
 };
 
 export { loadMenuPage }
