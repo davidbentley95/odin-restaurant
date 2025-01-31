@@ -73,7 +73,7 @@ img {
 }
 
 /* MENU PAGE STYLING */
-.menu-div {
+.menu-div, .about-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,3 +82,19 @@ img {
     width: 100vw;
     min-height: 70vh;
 }
+
+/* ABOUT PAGE STYLING */
+.about-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    min-height: 70vh;
+}
+
+.about-body {
+    width: 40%;
+}
+

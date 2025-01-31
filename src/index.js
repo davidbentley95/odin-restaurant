@@ -1,6 +1,7 @@
 import "./styles.css";
 import { loadHomePage } from "./home.js";
 import { loadMenuPage } from "./menu.js";
+import { loadAboutPage } from "./about.js";
 
 loadHomePage();
 
@@ -26,4 +27,9 @@ document.querySelector("#menu").addEventListener("click", () => {
     clearPage();
     loadMenuPage();
     updateHeaderHighlight("#menu")
+});
+document.querySelector("#about").addEventListener("click", () => {
+    clearPage();
+    loadAboutPage();
+    updateHeaderHighlight("#about")
 });
